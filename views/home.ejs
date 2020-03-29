@@ -1,0 +1,27 @@
+<%- include ./partials/header -%>
+
+
+	<h1>Home</h1>
+	<p> <%= p1 %> </p>
+
+	<% entries.forEach(function(entry){ %>
+	    <h1> <%=entry.data1%> </h1>
+	    <p> <%=entry.data2.substring(0,99) + '...'%> </p>
+
+	
+	    <a href = "/users/ <%= entry.data1 %>">read more</a>
+	
+   
+	
+	<% }) %>
+
+ 
+
+
+	   
+	    
+	
+
+
+<%- include ./partials/footer -%>	
+
