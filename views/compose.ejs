@@ -1,0 +1,27 @@
+<%- include ./partials/header %>
+
+<form action = "/compose" method = "post">
+    <h1 id = "h">Compose</h1>
+	<fieldset>
+		<div class="form-group">
+			<label>Title</label>
+            <input type = "text" name = "line" placeholder = "enter text" id = "inn" class="form-control">
+            
+	    </div>
+
+        <div class = "form-group">
+		    <label>Post</label>
+			<textarea id="w3mission" rows="4" cols="41" class="form-control" name = "area"></textarea>	
+		</div>
+
+
+		<button class="btn btn-primary" type = "submit">Publish</button>
+    </fieldset>
+</form>
+<%- include ./partials/footer %>
+
+
+
+
+	
+  
